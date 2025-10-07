@@ -15,7 +15,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Ton score :</Text>
       <Text style={styles.countText}>{count}</Text>
-      <Button title="Fais le plus que tu peux" onPress={incrementCount}/>
+      <Button title="Fais le mieux que tu peux" onPress={incrementCount}/>
     </SafeAreaView>
   );
 }
